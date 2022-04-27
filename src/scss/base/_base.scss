@@ -1,0 +1,27 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#page {
+  font-family: $family;
+  height: 100vh;
+  background-color: $clr_primary;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
